@@ -101,10 +101,27 @@ local boringBlocks = {
     ["minecraft:dirt"] = true,
     ["minecraft:stone"] = true,
     ["minecraft:cobblestone"] = true,
-    ["minecraft:torch"] = true,
     ["minecraft:gravel"] = true,
+    ["minecraft:sand"] = true,
+
     ["minecraft:water"] = true,
     ["minecraft:flowing_water"] = true,
+    ["minecraft:lava"] = true,
+    ["minecraft:flowing_lava"] = true,
+
+    ["minecraft:bedrock"] = true,
+
+    ["minecraft:coal_ore"] = true,
+    ["minecraft:iron_ore"] = true,
+    ["minecraft:gold_ore"] = true,
+
+    ["BigReactors:YelloriteOre"] = true,
+    ["ProjRed|Exploration:projectred.exploration.ore"] = true,
+    ["ThermalFoundation:Ore"] = true,
+
+    ["minecraft:torch"] = true,
+    ["minecraft:chest"] = true,
+    ["IronChest:BlockIronChest"] = true,
 }
 
 function logBlockData(blockdata)
